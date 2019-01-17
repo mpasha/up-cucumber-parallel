@@ -1,0 +1,32 @@
+Feature: Login
+
+  #  @login
+  #  Scenario Outline: Register a user 2
+  #    Given user launches the facebook
+  #    When user enters signup information "<FirstName>","<LastName>","<EmailOrMobile>","<SignUpPassword>"
+  #    And user clears sign up information
+  ##    Then sign up info is cleared
+  #
+  #    Examples:
+  #      | FirstName | LastName | EmailOrMobile       | SignUpPassword |
+  #      | Test    | Shaik    | mehraj999@gmail.com | 92379889       |
+  @facebook_proto2
+  Scenario Outline: Register a user                           [90m# Login.feature:16[0m
+    [36mGiven [0m[36muser launches the facebook "<Feature>","<Scenario>"[0m
+    [36mWhen [0m[36muser enters signup information[0m
+    [36mAnd [0m[36muser clears sign up information[0m
+
+    #    Then sign up info is cleared
+    Examples: 
+
+  @facebook_proto2
+  Scenario Outline: Register a user                              [90m# Login.feature:24[0m
+    [32mGiven [0m[32muser launches the facebook "[0m[32m[1mRegister[0m[32m","[0m[32m[1mSignUpUser_TC1[0m[32m"[0m [90m# StpRegister.user_launches_the_facebook(String,String)[0m
+    [32mWhen [0m[32muser enters signup information[0m                          [90m# StpRegister.user_enters_signup_information()[0m
+    [32mAnd [0m[32muser clears sign up information[0m                          [90m# StpRegister.user_clears_sign_up_information()[0m
+
+  @facebook_proto2
+  Scenario Outline: Register a user                              [90m# Login.feature:25[0m
+    [32mGiven [0m[32muser launches the facebook "[0m[32m[1mRegister[0m[32m","[0m[32m[1mSignUpUser_TC2[0m[32m"[0m [90m# StpRegister.user_launches_the_facebook(String,String)[0m
+    [32mWhen [0m[32muser enters signup information[0m                          [90m# StpRegister.user_enters_signup_information()[0m
+    [32mAnd [0m[32muser clears sign up information[0m                          [90m# StpRegister.user_clears_sign_up_information()[0m

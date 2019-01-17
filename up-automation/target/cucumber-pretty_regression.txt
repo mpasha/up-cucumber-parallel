@@ -1,0 +1,32 @@
+Feature: Register
+
+  #  @facebook
+  #  Scenario Outline: Register a user
+  #    Given user launches the facebook
+  #    When user enters signup information "<FirstName>","<LastName>","<EmailOrMobile>","<SignUpPassword>"
+  #    And user clears sign up information
+  ##    Then sign up info is cleared
+  #
+  #    Examples:
+  #      | FirstName | LastName | EmailOrMobile       | SignUpPassword |
+  #      | Mehraj    | Shaik    | mehraj999@gmail.com | 92379889       |
+  @facebook_proto
+  Scenario Outline: Register a user                           # Register.feature:15
+    Given user launches the facebook "<Feature>","<Scenario>"
+    When user enters signup information
+    And user clears sign up information
+
+    #    Then sign up info is cleared
+    Examples: 
+
+  @facebook_proto
+  Scenario Outline: Register a user                              # Register.feature:23
+    Given user launches the facebook "Register","SignUpUser_TC1" # StpRegister.user_launches_the_facebook(String,String)
+    When user enters signup information                          # StpRegister.user_enters_signup_information()
+    And user clears sign up information                          # StpRegister.user_clears_sign_up_information()
+
+  @facebook_proto
+  Scenario Outline: Register a user                              # Register.feature:24
+    Given user launches the facebook "Register","SignUpUser_TC2" # StpRegister.user_launches_the_facebook(String,String)
+    When user enters signup information                          # StpRegister.user_enters_signup_information()
+    And user clears sign up information                          # StpRegister.user_clears_sign_up_information()

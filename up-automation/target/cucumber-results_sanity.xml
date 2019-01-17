@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="76.074097">
+<testcase classname="Login" name="Register a user" time="41.784122">
+<system-out><![CDATA[Given user launches the facebook "Register","SignUpUser_TC1"................passed
+When user enters signup information.........................................passed
+And user clears sign up information.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Register a user 2" time="34.289975">
+<system-out><![CDATA[Given user launches the facebook "Register","SignUpUser_TC2"................passed
+When user enters signup information.........................................passed
+And user clears sign up information.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

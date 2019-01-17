@@ -1,0 +1,77 @@
+[
+  {
+    "source": "^user clears sign up information$",
+    "steps": [
+      {
+        "name": "user clears sign up information",
+        "aggregatedDurations": {
+          "average": 5.08965245,
+          "median": 5.08965245
+        },
+        "durations": [
+          {
+            "duration": 5.8854865,
+            "location": "Register.feature:18"
+          },
+          {
+            "duration": 4.2938184,
+            "location": "Register.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user launches the facebook \"(.*?)\",\"(.*?)\"$",
+    "steps": [
+      {
+        "name": "user launches the facebook \"Register\",\"SignUpUser_TC1\"",
+        "aggregatedDurations": {
+          "average": 2.7532079,
+          "median": 2.7532079
+        },
+        "durations": [
+          {
+            "duration": 2.7532079,
+            "location": "Register.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "user launches the facebook \"Register\",\"SignUpUser_TC2\"",
+        "aggregatedDurations": {
+          "average": 0.086412,
+          "median": 0.086412
+        },
+        "durations": [
+          {
+            "duration": 0.086412,
+            "location": "Register.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters signup information$",
+    "steps": [
+      {
+        "name": "user enters signup information",
+        "aggregatedDurations": {
+          "average": 21.92480845,
+          "median": 21.92480845
+        },
+        "durations": [
+          {
+            "duration": 22.9736222,
+            "location": "Register.feature:17"
+          },
+          {
+            "duration": 20.8759947,
+            "location": "Register.feature:17"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11747746600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Register a user",
+        "description": "",
+        "id": "register;register-a-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 206200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 946389600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2753207900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launches the facebook \"Register\",\"SignUpUser_TC1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 28
+                },
+                {
+                  "val": "SignUpUser_TC1",
+                  "offset": 39
+                }
+              ],
+              "location": "StpRegister.user_launches_the_facebook(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22973622200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters signup information",
+            "match": {
+              "location": "StpRegister.user_enters_signup_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5885486500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clears sign up information",
+            "match": {
+              "location": "StpRegister.user_clears_sign_up_information()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@facebook_proto"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7828268800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Register a user",
+        "description": "",
+        "id": "register;register-a-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 46600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 628854100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86412000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launches the facebook \"Register\",\"SignUpUser_TC2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 28
+                },
+                {
+                  "val": "SignUpUser_TC2",
+                  "offset": 39
+                }
+              ],
+              "location": "StpRegister.user_launches_the_facebook(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20875994700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters signup information",
+            "match": {
+              "location": "StpRegister.user_enters_signup_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4293818400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clears sign up information",
+            "match": {
+              "location": "StpRegister.user_clears_sign_up_information()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@facebook_proto"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]
